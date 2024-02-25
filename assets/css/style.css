@@ -1,0 +1,79 @@
+
+
+/* 
+.contactos
+.usuario
+.nombre
+.status
+.icons
+.button
+.links
+.link
+.principal 
+*/
+
+* {
+    margin: 0;
+}
+
+main {
+    border: 2px solid black;
+
+    display: flex;
+}
+
+.contactos {
+    border: 2px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 350px;
+    border: 2px solid black;
+}
+
+img {
+    border: 2px solid black;
+    
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(183, 183, 183);
+    border-radius: 25px;
+    margin-left: 25px;
+}
+
+.nombre {
+    border: 2px solid black;
+
+    font-family: roboto, arial;
+    font-size: 16px;
+    
+}
+
+.status {
+    border: 2px solid black;
+
+    font-family: roboto, arial;
+    font-size: 14px;
+    color: rgb(197, 197, 197);
+    
+}
+
+.icons {
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    width: 70px;
+    margin: 15px;
+    
+}
